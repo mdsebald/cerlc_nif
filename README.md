@@ -92,7 +92,7 @@ crc = :cerlc_nif.calc_crc(data, @crc32_defn)
 
 cerlc_nif is slower than Erlang's built in crc32() function but faster than crc calculators built using pure Erlang or Elixir
 
-cerlc_nif is useful for quickly generating CRC's with little code and no other dependencies.
+cerlc_nif is useful for quickly generating CRC's with little code and few dependencies.
 
 ### Sources of CRC Definitions
 [Javascript CRC Calculator](http://www.sunshine2k.de/coding/javascript/crc/crc_js.html)
